@@ -1,0 +1,1 @@
+/home/pi/colorfollow/CMakeFiles/Color.dir

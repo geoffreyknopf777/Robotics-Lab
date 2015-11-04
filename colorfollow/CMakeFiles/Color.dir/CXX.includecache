@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/pi/colorfollow/camcv.cpp
+iostream
+-
+stdio.h
+-
+drive.h
+/home/pi/colorfollow/drive.h
+opencv2/highgui/highgui.hpp
+/home/pi/colorfollow/opencv2/highgui/highgui.hpp
+opencv2/imgproc/imgproc.hpp
+/home/pi/colorfollow/opencv2/imgproc/imgproc.hpp
+
+/home/pi/colorfollow/drive.h
+stdio.h
+-
+stdlib.h
+-
+wiringPi.h
+/home/pi/colorfollow/wiringPi.h
+
